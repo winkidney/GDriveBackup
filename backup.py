@@ -143,6 +143,8 @@ def main():
     d = DIRDump(DIRS_TO_DUMP)
     d.run()
     print("Directories dumped.")
+    sync_gdrive(GDRVIE_MAP)
+    print("Google Drive synced.")
 
 
 if __name__ == "__main__":
