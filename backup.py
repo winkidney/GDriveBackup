@@ -23,7 +23,7 @@ FULL_DUMP_DIR = os.path.join(DUMP_TO, CHILD_DUMP_DIR_NAME)
 FULL_DUMP_DIR_BAK = os.path.join(DUMP_TO, CHILD_DUMP_DIR_NAME + ".bak")
 
 GDRVIE_MAP = [
-    (FULL_DUMP_DIR, "file_id"),
+    (FULL_DUMP_DIR, GDRIVE_DIR_ID),
 ]
 
 MYSQL_DUMP_CMD_TPL = "mysqldump" \
